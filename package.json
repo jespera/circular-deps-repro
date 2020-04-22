@@ -1,0 +1,27 @@
+{
+  "name": "nameclashes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "generate": "sic --target TypeScript --write csl/b.csl",
+    "clean": "rm -rf node_modules package-lock.json dist generated"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deondigital/api-client": "^14.2.0",
+    "@types/chai": "^4.2.4",
+    "@types/mocha": "^5.2.7",
+    "@types/node-fetch": "^2.5.2",
+    "@types/sinon": "^7.5.0",
+    "chai": "^4.1.2",
+    "immutable": "^4.0.0-rc.12",
+    "mocha": "^5.1.1",
+    "node-fetch": "^2.6.0",
+    "sinon": "^7.5.0",
+    "ts-node": "^6.0.2",
+    "typescript": "3.8.3"
+  }
+}
